@@ -1,0 +1,135 @@
+/* The Modal (background) */
+.modal0 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content0 {
+    background-color: #fefefe;
+    margin: 64px auto;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* The Close Button */
+.close0 {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close0:hover,
+.close0:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate0 {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+.input_id{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: green;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn0 {
+    width: auto;
+    padding: 8px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer0 {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar0 {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container0 {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw0 {
+    float: right;
+    padding-top: 8px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw0 {
+        display: block;
+        float: none;
+    }
+    .cancelbtn0 {
+        width: 100%;
+
+    }
+}
+
+.login_btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}

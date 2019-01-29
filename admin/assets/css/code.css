@@ -1,0 +1,55 @@
+.col-sm-8 input{
+            height: 25px; 
+            border-radius: 0 0;
+            margin-bottom: 1px;
+        }
+        .form-group label{
+            font-size: 10px;
+            font-weight: normal;
+        }
+    .mb{
+            background: #CACEDE;
+            border-radius: 4px 4px;
+            padding: 3px 23px;
+            font-size: 20px;
+            margin-top: 10px;
+            color: #2D6CA2;
+    }
+    #mv{
+        background: #307ECC;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        padding: 5px;
+        border-radius: 3px 3px 0 0px;
+    }
+    .form-group label{
+        text-align: right;
+        font-size: 15px;
+    }
+
+    .upload_frame{
+    border: 1px solid #CCCCCC;
+    width: 242px;
+    background: #fff;
+}
+
+#slider_id{
+    background: #307ECC;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px 3px 0 0px;
+}
+
+.success{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+.image_text{
+    width: 232px;
+    background: #fff;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,8 @@
+.ss li{
+	list-style: none;
+    margin: 0px -32px;
+}
+
+.ss li a:hover{
+	color: #000;
+}
